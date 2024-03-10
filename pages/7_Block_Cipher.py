@@ -46,7 +46,7 @@ def xor_decrypt(ciphertext, key, block_size):
     return unpadded_decrypted_data                               
 
 def main():
-    st.title("XOR Encryption and Decryption")
+    st.title("Block Cipher")
     allowed_block_sizes = [8, 16, 32, 64, 128]
     
     plaintext = st.text_input("Enter plaintext: ")
